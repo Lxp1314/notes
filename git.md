@@ -181,4 +181,10 @@ git commit -m "修改备注"
 
 //查看mygit.md的修改内容（本地与仓库中比较）
 git diff mygit.md
+
+//显示历史commit
+git log
+git log --pretty=oneline
+
+
 ```
