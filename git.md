@@ -74,7 +74,7 @@ to read about a specific subcommand or concept.
 ```
 
 # git显示所有配置
-···
+```
 $ git config
 usage: git config [<options>]
 
@@ -146,4 +146,4 @@ remote.origin.url=git@github.com:Lxp1314/notes.git
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 branch.master.remote=origin
 branch.master.merge=refs/heads/master
-···
+```
