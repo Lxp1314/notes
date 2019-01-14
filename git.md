@@ -157,6 +157,19 @@ branch.master.merge=refs/heads/master
 
 # 本地创建一个空的仓库
 ```
+//创建新文件夹mygit
 mkdir mygit
+//进入mygit
+cd mygit
+//初始化为新的仓库（还没有远程地址，只是一个本地的新的仓库）
 git init
+//假如你在mygit下创建了一个git.md的文件，使用git status可以查看本地的修改状态
+//git status会告诉你新增了那些文件，删除了那些文件，并提示你相应的命令
+git status
+//将修改添加到暂存区
+git add mygit.md
+//将暂存区的修改提交到仓库
+git commit -m "修改备注"
+//可以多次将文件添加到暂存区，然后一次commit将多个add提交到仓库
+
 ```
