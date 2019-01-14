@@ -150,3 +150,7 @@ remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 branch.master.remote=origin
 branch.master.merge=refs/heads/master
 ```
+
+# 配置全局账号
+> 1. git config --global user.name "Your Name"
+> 2. git config --global user.email "Your Email"
