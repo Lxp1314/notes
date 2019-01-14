@@ -154,3 +154,9 @@ branch.master.merge=refs/heads/master
 # 配置全局账号
 > 1. git config --global user.name "Your Name"
 > 2. git config --global user.email "Your Email"
+
+# 本地创建一个空的仓库
+```
+mkdir mygit
+git init
+```
