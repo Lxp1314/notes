@@ -1,4 +1,6 @@
 # git所有命令
+> git help -a
+
 ```
 $ git help -a
 usage: git [--version] [--help] [-C <path>] [-c name=value]
@@ -74,6 +76,7 @@ to read about a specific subcommand or concept.
 ```
 
 # git显示所有配置
+> git config -l
 ```
 $ git config
 usage: git config [<options>]
