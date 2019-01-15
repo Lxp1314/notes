@@ -186,5 +186,6 @@ git diff mygit.md
 git log
 git log --pretty=oneline
 
-
+git checkout -- file
+//从最近一次git add或者git commit中检出文件file
 ```
