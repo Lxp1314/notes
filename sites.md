@@ -5,6 +5,10 @@
 [慕课网](https://www.imooc.com/)
 
 ### 大神博客
+[阮一峰的个人网站](http://www.ruanyifeng.com/home.html)
 
 ### 专业技术网站
 [php官方文档](http://php.net/manual/zh/)
+
+### 有用网站
+[蓝灯](https://github.com/getlantern/lantern-binaries)
