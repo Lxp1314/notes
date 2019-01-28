@@ -191,4 +191,23 @@ git checkout -- file
 
 git rm test.md
 //从仓库中移除test.md文件，例如我们把test.md改为test1.md，则需要先在本地重命名test.md为test1.md，然后git add test1.md，git rm test.md
+
+```
+
+# 将本地项目推送到github
+```
+1. 首先，在github创建一个仓库laravel-admin
+
+2. 然后在本地项目文件夹初始化git仓库
+git init
+
+3. 接着将需要进行版本管理的文件提交到仓库
+git add <dir or file> -> git commit -m '初始化'
+
+4. 再然后将本地仓库和远端github关联
+git remote add origin git@github.com:Lxp1314/docker-laravel.git
+（注意Lxp1314是自己的用户名，docker-laravel是github新建的仓库）
+
+5. 最后将本地仓库push到远端
+git push -u origin master
 ```
