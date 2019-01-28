@@ -11,6 +11,7 @@
 [php官方文档](http://php.net/manual/zh/) | 
 [laravel-admin](https://laravel-admin.org/docs/zh/model-show) | 
 [apidoc](http://apidocjs.com/#param-api-define) | 
+[Guzzle](https://guzzle-cn.readthedocs.io/zh_CN/latest/overview.html)
 
 ### 有用网站
 [蓝灯](https://github.com/getlantern/lantern-binaries)
