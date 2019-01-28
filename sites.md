@@ -9,6 +9,8 @@
 
 ### 专业技术网站
 [php官方文档](http://php.net/manual/zh/)
+[laravel-admin](https://laravel-admin.org/docs/zh/model-show)
+[apidoc](http://apidocjs.com/#param-api-define)
 
 ### 有用网站
 [蓝灯](https://github.com/getlantern/lantern-binaries)

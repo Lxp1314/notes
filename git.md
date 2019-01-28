@@ -187,5 +187,8 @@ git log
 git log --pretty=oneline
 
 git checkout -- file
-//从最近一次git add或者git commit中检出文件file
+//从最近一次git add或者git commit中检出文件file(会覆盖本地的修改，意思是本地的修改不要了，从git add或者git commit中把最近一次提交的修改拉取覆盖本地)
+
+git rm test.md
+//从仓库中移除test.md文件，例如我们把test.md改为test1.md，则需要先在本地重命名test.md为test1.md，然后git add test1.md，git rm test.md
 ```
