@@ -211,3 +211,18 @@ git remote add origin git@github.com:Lxp1314/docker-laravel.git
 5. 最后将本地仓库push到远端
 git push -u origin master
 ```
+
+# 分支操作
+```
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
+```
