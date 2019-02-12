@@ -9,6 +9,7 @@ command+delete 删除、已到废纸篓
 command+shift+delete 清空废纸篓
 command+q 退出当前的程序
 f11 显示桌面（如果f11是减小音量，那就按fn+f11）
+ctrl+command+f 全屏和退出全屏
 
 terminal中的快捷键
 ctrl+a 到行首（ahead）
