@@ -22,3 +22,5 @@ ctrl+e 到行位（end）
 ### VSCode配置
 1. 配置中文语言：在插件管理里面安装Chinese (Simplified) Language Pack for Visual Studio Code插件，然后快捷键command+shift+P打开配置搜索，搜索language，找到Configure Display Language，修改locale修改为zh-cn，然后重启环境就可以了
 2. 配置自动保存：在Code-首选项-设置中搜索Auto Save，在用户设置和工作区设置里面同时将文件的Files:Auto Save改为afterDelay，Auto Save Delay默认1000毫秒即可。
+3. 快捷键
+ctrl+` 打开关闭终端
