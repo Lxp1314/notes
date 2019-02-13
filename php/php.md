@@ -1,5 +1,10 @@
 # 基础
 
+## 9种原始数据类型
+四种标量类型：boolean、integer、float、string
+三种复合类型：array、object、callable
+两种特殊类型：resource、NULL
+
 ## 对象创建
 ```
 //标准创建

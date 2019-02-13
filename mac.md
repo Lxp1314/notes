@@ -24,3 +24,9 @@ ctrl+e 到行位（end）
 2. 配置自动保存：在Code-首选项-设置中搜索Auto Save，在用户设置和工作区设置里面同时将文件的Files:Auto Save改为afterDelay，Auto Save Delay默认1000毫秒即可。
 3. 快捷键
 ctrl+` 打开关闭终端
+
+### 系统
+//打印PATH变量
+echo $PATH;
+//将/usr/local/go/bin添加到PATH变量
+export PATH=$PATH:/usr/local/go/bin
