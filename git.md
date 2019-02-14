@@ -175,6 +175,8 @@ git init
 git status
 //将修改添加到暂存区
 git add mygit.md
+//如果有多个文件可以执行-A全部添加
+git add -A
 //将暂存区的修改提交到仓库
 git commit -m "修改备注"
 #可以多次将文件添加到暂存区，然后一次commit将多个add提交到仓库
