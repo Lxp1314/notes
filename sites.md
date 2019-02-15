@@ -9,6 +9,12 @@
 
 ### 专业技术网站
 [php官方文档](http://php.net/manual/zh/) | 
+[php官方文档-字符串函数](http://php.net/manual/zh/ref.strings.php) | 
+[php官方文档-posix正则](http://php.net/manual/zh/ref.regex.php) | 
+[php官方文档-pcre正则](http://php.net/manual/zh/ref.pcre.php) | 
+[php官方文档-文本处理](http://php.net/manual/zh/refs.basic.text.php) | 
+[php官方文档-url函数](http://php.net/manual/zh/ref.url.php) | 
+
 [laravel-admin](https://laravel-admin.org/docs/zh/model-show) | 
 [apidoc](http://apidocjs.com/#param-api-define) | 
 [Guzzle](https://guzzle-cn.readthedocs.io/zh_CN/latest/overview.html)

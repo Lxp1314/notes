@@ -2,16 +2,23 @@
 安装Centos时，设置-系统-指点设备要改为usb多点触控板，不然系统安装时没有鼠标指针，很难操作
 
 ### 快捷键
-ctrl+space 切换输入法
-commant+R 浏览器刷新
-ctrl+commant+Q 锁定屏幕
-command+delete 删除、已到废纸篓
-command+shift+delete 清空废纸篓
-command+q 退出当前的程序
-f11 显示桌面（如果f11是减小音量，那就按fn+f11）
-ctrl+command+f 全屏和退出全屏
+#### mac系统快捷键
+| 快捷键 | 说明
+| ----- | ---
+| ctrl + space          | 切换输入法
+| commant + R           | 浏览器刷新
+| ctrl + commant + Q    | 锁定屏幕
+| command + q           | 关闭窗口
+| shift + command + q   | 注销
+| command + delete      | 删除、已到废纸篓
+| command + shift + del | 清空废纸篓
+| f11 (+ fn)            | 显示桌面
+| ctrl+command+f        | 全屏和退出全屏
+| command + c           | 拷贝
+| command + v           | 粘贴（复制粘贴）
+| command + alt + v     | 粘贴（剪切粘贴）
 
-terminal中的快捷键
+#### 终端快捷键
 ctrl+a 到行首（ahead）
 ctrl+e 到行位（end）
 
@@ -24,6 +31,9 @@ ctrl+e 到行位（end）
 2. 配置自动保存：在Code-首选项-设置中搜索Auto Save，在用户设置和工作区设置里面同时将文件的Files:Auto Save改为afterDelay，Auto Save Delay默认1000毫秒即可。
 3. 快捷键
 ctrl+` 打开关闭终端
+command+B 打开关闭侧边栏
+command+→ 到行位
+command+← 到行首
 
 ### 系统
 //打印PATH变量

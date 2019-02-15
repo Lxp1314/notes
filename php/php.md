@@ -5,6 +5,75 @@
 三种复合类型：array、object、callable
 两种特殊类型：resource、NULL
 
+## array
+```
+$arr = ['a' => 'a1', 'b' => 'a2', '3', '44'];
+var_dump($arr);
+```
+输出
+```
+array(4) {
+  ["a"]=>
+  string(2) "a1"
+  ["b"]=>
+  string(2) "a2"
+  [0]=>
+  string(1) "3"
+  [1]=>
+  string(2) "44"
+}
+```
+
+## php允许的类型转换
+```
+(int), (integer) - 转换为整形 integer
+(bool), (boolean) - 转换为布尔类型 boolean
+(float), (double), (real) - 转换为浮点型 float
+(string) - 转换为字符串 string
+(array) - 转换为数组 array
+(object) - 转换为对象 object
+(unset) - 转换为 NULL (PHP 5)
+
+(binary) 转换和 b 前缀转换支持为 PHP 5.2.1 新增。
+$binary = (binary)$string;
+$binary = b"binary string";
+```
+
+## Ctype函数
+```
+\n	换行（ASCII 字符集中的 LF 或 0x0A (10)）
+\r	回车（ASCII 字符集中的 CR 或 0x0D (13)）
+\t	水平制表符（ASCII 字符集中的 HT 或 0x09 (9)）
+\v	垂直制表符（ASCII 字符集中的 VT 或 0x0B (11)）（自 PHP 5.2.5 起）
+\e	Escape（ASCII 字符集中的 ESC 或 0x1B (27)）（自 PHP 5.4.0 起）
+\f	换页（ASCII 字符集中的 FF 或 0x0C (12)）（自 PHP 5.2.5 起）
+
+\\	反斜线
+\$	美元标记
+\"	双引号
+
+ctype_alnum - 做字母和数字检测（alpha and num）
+    [a-zA-Z0-9]
+ctype_alpha - 做纯字母检测
+    [A-Za-z]
+ctype_digit - 做纯数字检测
+    [0-9]+
+ctype-cntrl - 做控制字符检测
+    全部都是控制字符：换行、缩进、制表。
+ctype_graph - 做可打印字符检测，空格除外
+    检查输出的字符都是可见的（空格不可见）。
+ctype_lower - 做小写字母检测
+ctype_upper - 做大写字母检测
+ctype_print - 做可打印字符检测
+    包括字母、数字、标点、特殊符号、空白，但不包括控制字符
+ctype_punct - 检测可打印的字符是不是不包含空白、数字和字母
+    符合ctype_print要求，但没有字母、数字、空白，只有标点、特殊符号
+ctype_space - 做空白字符检测
+    空白字符，缩进，垂直制表符，换行符，回车和换页字符
+ctype_xdigit - 检测字符串是否只包含十六进制字符
+    十进制的数值和 [A-Fa-f] 的字母
+```
+
 ## 对象创建
 ```
 //标准创建
