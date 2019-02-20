@@ -31,12 +31,23 @@
 | 快捷键 | 功能说明 | 自定义
 | ----- | ------- | ----
 | F1                    | 打开命令提示
-| ctrl + `              | 打开关闭终端
-| command + B           | 打开关闭侧边栏
-| command + →           | 到行位
-| command + ←           | 到行首
-| command + T           | 快速切换到终端（T:terminal）| ✅
-| command + E           | 快速切换到编辑器（E:editor）| ✅
+| ctl + `              | 打开关闭终端
+| cmd + B           | 打开关闭侧边栏
+| cmd + →           | 到行位
+| cmd + ←           | 到行首
+| cmd + T           | 快速切换到终端（T:terminal）| ✅
+| cmd + E           | 快速切换到编辑器（E:editor）| ✅
+| alt + ↑           | 向上复制行                | ✅
+| alt + ↓           | 向下复制行                | ✅
+| cmd + D           | 删除行                   | ✅
+
+自定义按键：按F1，在命令提示里输入keyboard，选择Open Keyboards Shortcuts，在键盘快捷方式里搜索"cmd+t"，取消此按键绑定，然后搜索workbench.action.terminal.focus，选择终端：聚焦到终端，点击设置快捷键即可
+editor.action.copyLinesUpAction
+
+| 命令 | 功能
+| --- | -
+| workbench.action.terminal.focus | 终端：聚焦到终端
+| workbench.action.focusActiveEditorGroup | 视图：聚焦到活动编辑器组
 
 
 ### 使用技巧
