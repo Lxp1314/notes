@@ -104,6 +104,16 @@ a:
 echo '222';
 ```
 
+### 9个超全局变量
+1. $_GLOBALS
+2. $_SERVER
+3. $_GET
+4. $_POST
+5. $_REQUEST
+6. $_FILE
+7. $_SESSION
+8. $_COOKIE
+9. $_ENV
 
 ### phpstorm工具下面一直update indices
 File->Invalidate Caches/Restart...->Invalidate and Restart
