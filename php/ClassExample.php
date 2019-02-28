@@ -231,10 +231,48 @@ class Example extends ExampleAbstract{
     }
 
     //在静态上下文中调用一个不可访问方法时调用
-    public function __callStatic(string $name, array $arguments){
+    public static function __callStatic(string $name, array $arguments){
         echo ’静态方法‘ . $name . ':' . implode(',' , $arguments). '被调用' . PHP_EOL;
 
     }
+
+    /** 
+     * 魔术方法，以__开头
+     */
+
+     //常用于序列化对象之前调用(调用serialize时会先调用__slepp，过滤不需要被序列化的属性，将需要被序列化的属性名称返回)
+     public function __sleep() :array{
+
+     }
+
+     //常用于反序列化操作，先调用__wakeup
+     public function __wakeup(){
+
+     }
+
+     //把对象当字符串使用时调用：echo $example;
+     public function __toString() :string{
+        return '调用对象toString了' . PHP_EOL;
+     }
+
+     //当尝试以函数方式调用一个对象时被调用
+     public function __invoke(){
+        echo '调用了对象的__invoke方法' . PHP_EOL;
+     }
+
+     //当调用var_export()导出类时调用
+     public static function __set_state($array){
+        //下面代码不对，不太会用
+        //  $obj = new Example;
+        //  $obj->p = 'p_value';
+        //  $obj->p_protected = 'p_protected value';
+        // return $obj;
+     }
+
+     //当复制完成时，如果定义了__clone()方法，则新对象中的__clone方法会被调用
+     public function __clone(){
+        
+     }
 }
 
 class ExampleChild extends Example{
@@ -244,6 +282,10 @@ class ExampleChild extends Example{
     // function echoProperty($name){
     //     echo $this->$name;
     // }
+
+    public function test(string $a){
+        var_dump($a);
+    }
 }
 
 // echo Example::constant . PHP_EOL;
@@ -262,3 +304,7 @@ $example->a;//获取不可访问的属性
 isset($example->a);//判断不可访问属性
 $example->a(1,2);//调用不存在方法
 Example::b('a', 'b');//调用不存在静态方法
+echo $example;//调用对象的__toString方法
+$example();
+// var_export($example);
+$example->test(true);
