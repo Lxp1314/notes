@@ -3,6 +3,7 @@
 ### 综合技术网站
 [菜鸟教程](http://www.runoob.com)
 [慕课网](https://www.imooc.com/)
+[力扣](https://leetcode-cn.com/)
 
 ### 大神博客
 [阮一峰的个人网站](http://www.ruanyifeng.com/home.html)
