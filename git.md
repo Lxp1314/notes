@@ -228,3 +228,5 @@ git push -u origin master
 
 删除分支：git branch -d <name>
 ```
+> git rebase详解 https://www.cnblogs.com/pinefantasy/articles/6287147.html
+
