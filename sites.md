@@ -7,6 +7,7 @@
 ### 大神博客
 [阮一峰的个人网站](http://www.ruanyifeng.com/home.html)
 [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
+[omgzui](https://github.com/OMGZui)
 
 ### 专业技术网站
 [php官方文档](http://php.net/manual/zh/) | 
