@@ -15,3 +15,5 @@
     自带授权认证
     dingo api
     Guzzle
+## 域名记录
+api laravel myphp blog weixin lnmp
