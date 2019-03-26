@@ -20,4 +20,6 @@ chmod +x /usr/local/bin/docker-compose
 # 有用网站
 ```
 https://blog.csdn.net/u014389734/article/details/79683135
+//Alpine+Nginx+PHP7+Supervisor+Crontab+Laravel
+https://blog.segmentfault.net/a/1190000018415600
 ```
