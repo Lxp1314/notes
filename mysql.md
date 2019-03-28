@@ -7,6 +7,12 @@ mysql -u root -p
 //连接远程服务，使用-h指定ip或域名
 mysql -h 10.0.1.99 -u root -p
 
+//创建用户
+mysql> create user 'uname'@'localhost|ip|%' identified by 'password';
+
+//修改自己的密码
+mysql> set password=password('password');
+
 //显示数据库
 mysql> show databases;
 
