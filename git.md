@@ -216,19 +216,26 @@ git push -u origin master
 
 # 分支操作
 ```
-查看分支：git branch
+//查看分支
+git branch
 
-创建分支：git branch <name>
+//创建分支（从当前所在分支）
+git branch <name>
 
-切换分支：git checkout <name>
+//切换分支
+git checkout <name>
 
-切换到远程分支：git checkout -b dev origin/dev
+//创建+切换分支（从当前分支）
+git checkout -b <name>
 
-创建+切换分支：git checkout -b <name>
+//创建+切换到远程分支
+git checkout -b <name> origin/<name>
 
-合并某分支到当前分支：git merge <name>
+//合并某分支到当前分支
+git merge <name>
 
-删除分支：git branch -d <name>
+//删除分支
+git branch -d <name>
 ```
 > git rebase详解 https://www.cnblogs.com/pinefantasy/articles/6287147.html
 
