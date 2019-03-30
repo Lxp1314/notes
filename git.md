@@ -236,6 +236,14 @@ git merge <name>
 
 //删除分支
 git branch -d <name>
+
+//从远程clone下来后创建了dev分支并做了修改
+//现在要将修改提交到服务器，但服务器可能有dev分支
+//这时需要将dev改为xx_dev，然后push到服务器
+1. 首先确保本地分支所做的修改已commit
+2. 从dev再拉取一个分支xx_dev：git checkout -b xx_dev
+   或者git branch xx_dev，git checkout xx_dev
+3. git push origin xx_dev
 ```
 > git rebase详解 https://www.cnblogs.com/pinefantasy/articles/6287147.html
 

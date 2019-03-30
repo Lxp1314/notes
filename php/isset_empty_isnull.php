@@ -31,3 +31,14 @@ $a = 'false';
 echo '$a=\'false\'' . "\t empty=" . empty($a) . "\t\t isnull=" . is_null($a) . "\t isset=" . isset($a) . PHP_EOL;
 unset($a);
 echo 'unset($a)' . "\t empty=" . empty($a) . "\t isnull=" . is_null($a) . "\t isset=" . isset($a) . PHP_EOL;
+echo '-----------------------------------------------------' . PHP_EOL;
+/*
+ * 总结：
+ * 1. isset:false 未定义的变量、等于null的变量、被unset()了的变量，其他都为true
+ * 2. empty:true 未定义的变量、长度为0的字符串和数组、null、false、0和'0'、被unset()了的变量
+ * 3. isnull:true 未定义的变量、等于null的变量、被unset()了的变量
+ */
+echo '总结：' . PHP_EOL;
+echo '1. isset:false 未定义的变量、等于null的变量、被unset()了的变量，其他都为true' . PHP_EOL;
+echo '2. empty:true 未定义的变量、长度为0的字符串和数组、null、false、0和\'0\'、被unset()了的变量' . PHP_EOL;
+echo '3. isnull:true 未定义的变量、等于null的变量、被unset()了的变量' . PHP_EOL;
