@@ -237,6 +237,9 @@ git merge <name>
 //删除分支
 git branch -d <name>
 
+//查看本地分支和远程分支的关系
+git branch -vv
+
 //从远程clone下来后创建了dev分支并做了修改
 //现在要将修改提交到服务器，但服务器可能有dev分支
 //这时需要将dev改为xx_dev，然后push到服务器
