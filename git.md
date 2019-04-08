@@ -236,6 +236,8 @@ git merge <name>
 
 //删除分支
 git branch -d <name>
+//强制删除分支，当分支有未提交文件时使用
+git branch -D <name>
 
 //查看本地分支和远程分支的关系
 git branch -vv
