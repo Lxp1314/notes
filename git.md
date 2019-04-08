@@ -242,6 +242,10 @@ git branch -D <name>
 //查看本地分支和远程分支的关系
 git branch -vv
 
+//查看某文件的修改历史
+git log --pretty=oneline <filename>
+git show 哈希值
+
 //从远程clone下来后创建了dev分支并做了修改
 //现在要将修改提交到服务器，但服务器可能有dev分支
 //这时需要将dev改为xx_dev，然后push到服务器
