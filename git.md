@@ -246,6 +246,8 @@ git branch -vv
 git log --pretty=oneline <filename>
 git show 哈希值
 
+//使用git log或其他命令输出过长内容时，退出用:q，或者直接按q键
+
 //从远程clone下来后创建了dev分支并做了修改
 //现在要将修改提交到服务器，但服务器可能有dev分支
 //这时需要将dev改为xx_dev，然后push到服务器
