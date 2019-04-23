@@ -239,8 +239,11 @@ git branch -d <name>
 //强制删除分支，当分支有未提交文件时使用
 git branch -D <name>
 
-//查看本地分支和远程分支的关系
+查看本地分支和远程分支的关系
 git branch -vv
+
+查看所有远程分支
+git branch -r
 
 //查看某文件的修改历史
 git log --pretty=oneline <filename>

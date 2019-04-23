@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>角标</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 20px;
+            width: 215mm;
+        }
+
+        .rotate-test {
+            width: 8rem;
+            height: 8rem;
+            background-color: blueviolet;
+            position: relative;
+            float: left;
+        }
+
+        .rotate-test>.corner {
+            width: 6rem;
+            height: 1rem;
+            background-color: rgba(250, 8, 210, 0.5);
+            position: absolute;
+            top: 3.5rem;
+            left: 1rem;
+            border-radius: 50%;
+        }
+
+        .rotate-test>.corner1 {
+            transform: rotate(0deg);
+        }
+
+        .rotate-test>.corner2 {
+            transform: rotate(45deg);
+        }
+
+        .rotate-test>.corner3 {
+            transform: rotate(90deg);
+        }
+
+        .rotate-test>.corner4 {
+            transform: rotate(135deg);
+        }
+
+        .shap1>.corner {
+            height: 1rem;
+            top: 3.5rem;
+        }
+
+        .shap2>.corner {
+            height: 2rem;
+            top: 3rem;
+        }
+
+        .shap3>.corner {
+            height: 3rem;
+            top: 2.5rem;
+        }
+
+        .shap4>.corner {
+            height: 4rem;
+            top: 2rem;
+        }
+
+        .shap5>.corner {
+            height: 5rem;
+            top: 1.5rem;
+        }
+
+
+        .container {
+            width: 200px;
+            height: 300px;
+            background-color: grey;
+            position: relative;
+            overflow: hidden;
+            clear: left;
+        }
+
+        .container>.corner {
+            position: absolute;
+            width: 6rem;
+            height: 1.5rem;
+            right: -1.4091rem;
+            top: 0.8409rem;
+            background-color: burlywood;
+            transform: rotate(45deg);
+            text-align: center;
+            line-height: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>transform: rotate(+-0-360deg)是以矩形的中心点旋转的</h3>
+    <div class="rotate-test shap1">
+        <div class="corner corner1"></div>
+        <div class="corner corner2"></div>
+        <div class="corner corner3"></div>
+        <div class="corner corner4"></div>
+    </div>
+    <div class="rotate-test shap2">
+        <div class="corner corner1"></div>
+        <div class="corner corner2"></div>
+        <div class="corner corner3"></div>
+        <div class="corner corner4"></div>
+    </div>
+    <div class="rotate-test shap3">
+        <div class="corner corner1"></div>
+        <div class="corner corner2"></div>
+        <div class="corner corner3"></div>
+        <div class="corner corner4"></div>
+    </div>
+    <div class="rotate-test shap4">
+        <div class="corner corner1"></div>
+        <div class="corner corner2"></div>
+        <div class="corner corner3"></div>
+        <div class="corner corner4"></div>
+    </div>
+    <div class="rotate-test shap5">
+        <div class="corner corner1"></div>
+        <div class="corner corner2"></div>
+        <div class="corner corner3"></div>
+        <div class="corner corner4"></div>
+    </div>
+    <br style="clear:both;"/><br/>
+    <div class="container">
+        <div class="corner">
+            角标
+        </div>
+    </div>
+</body>
+
+</html>
