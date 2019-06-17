@@ -82,3 +82,8 @@ a[2] = 3;
 a[3] = 4;
 a[4] = 5;
 ```
+### splice
+splice() 方法向/从数组中添加/删除项目，然后返回被删除的项目。
+```js
+array.splice(start, deleteCount[, ...items]);
+```
