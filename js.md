@@ -17,6 +17,20 @@ fori: for(var i=0; i<3; i++){
 })()
 ```
 
+### 方法的参数arguments
+```js
+function test(name, age){
+  console.log(arguments.length);//方法的参数长度
+  if(arguments.length==2){
+    console.log(name);//name等于arguments[0]
+    console.log(arguments[1]);//age等于arguments[1]
+  }
+}
+test('wuyun', 18);
+test('wuyun');
+test();
+```
+
 ### undefined和null
 1. null表示一个对象，undefined表示一个未定义的基本变量
 2. typeof null 返回的是“object”，typeof undefined 返回的是“undefined”
