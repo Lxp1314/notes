@@ -15,6 +15,11 @@ fori: for(var i=0; i<3; i++){
 (function(){
   alert('123');
 })()
+
+//其实立即执行函数还有N种写法，比如【 (function (){}) 】也行，
+//在函数声明前加一元运算符也行：【 !function (){}() 】、【 ~function (){}() 】。
+//甚至，对一元运算符进行组合也可以：
+//【 !!!!function (){}() 】、【 ~~~function (){}() 】、【 !~!function (){}() 】。
 ```
 
 ### 方法的参数arguments
