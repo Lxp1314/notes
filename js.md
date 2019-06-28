@@ -114,3 +114,9 @@ splice() 方法向/从数组中添加/删除项目，然后返回被删除的项
 ```js
 array.splice(start, deleteCount[, ...items]);
 ```
+
+### 获取对象的所有属性
+```js
+var devices = {d1:"a", d2: "b"};
+Object.getOwnPropertyNames(devices)//["d1", "d2"]
+```
