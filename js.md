@@ -118,5 +118,12 @@ array.splice(start, deleteCount[, ...items]);
 ### 获取对象的所有属性
 ```js
 var devices = {d1:"a", d2: "b"};
-Object.getOwnPropertyNames(devices)//["d1", "d2"]
+//方式1
+Object.getOwnPropertyNames(devices)//["d1", "d2"] .forEach(function(key){...})
+//方式2
+Object.keys(devices); //.forEach(function(key){...})
+//方式3
+for(var i in devices) {
+  
+}
 ```
