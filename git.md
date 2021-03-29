@@ -261,3 +261,19 @@ git show 哈希值
 ```
 > git rebase详解 https://www.cnblogs.com/pinefantasy/articles/6287147.html
 
+```
+// 查看当前分支与另外分支某个目录下的不同
+git diff delivery_test ./ng/album3
+```
+
+## stash 用法
+```sh
+# 存储到stash
+git stash save 'message'
+# 查看所有stash
+git stash list
+# 从stash恢复
+git stash apply stash@{n}
+# 删除stash
+git stash drop stash@{0}
+```
